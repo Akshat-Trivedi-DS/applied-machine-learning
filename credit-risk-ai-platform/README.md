@@ -102,15 +102,3 @@ docker build -t credit-risk-api .
 docker run -p 8000:8000 credit-risk-api
 ```
 
-## How to explain this project in an interview
-
-See the **`explanation/`** folder — it's written specifically so you can
-explain every plot, every model, and every design decision out loud, with
-your actual results filled in:
-
-- `explanation/resume_explanation.pdf` — **start here**: walks through your resume bullet by bullet, phrase by phrase
-- `explanation/00_overview.pdf` — 30-second pitch + results table
-- `explanation/01_eda_plots_explained.pdf` — every EDA plot, what it shows, what it means
-- `explanation/02_models_explained.pdf` — how LogReg/Decision Tree/Random Forest each work, and why Random Forest won
-- `explanation/03_metrics_explained.pdf` — accuracy/precision/recall/F1/confusion matrix walked through with your real numbers
-- `explanation/04_interview_qa.pdf` — likely interview questions, answered
